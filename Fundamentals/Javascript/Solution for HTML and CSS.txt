@@ -1,0 +1,346 @@
+---------------Solution for HTML and CSS Lab--------------------------------
+----------------------------------------------------------------------------
+---------------------'Welcome.html'-----------------------------------------
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<p>I am learning <strong>HTML</strong> and <strong>CSS!</strong></p>
+</body>
+</html>
+-----------------------------------------------------------------------------
+---------------------'Headings.html'-----------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Headings</title>
+</head>
+<body>
+<h1>Actual site Heading</h1>
+<h2>Sub-heading</h2>
+<h3>Inside sub-heading</h3>
+<h4>Smaller heading</h4>
+<h5>The smallest heading</h5>
+</body>
+</html>
+---------------------'Paragraph.html'-----------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paragraphs</title>
+</head>
+<body>
+<h1>Paragraphs</h1>
+<p><em>First</em> paragraph</p>
+<p><em>Second</em> paragraph</p>
+<br/>
+<p><em>Third</em> paragraph</p>
+</body>
+</html>
+----------------------'TODO.html'---------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO List</title>
+</head>
+<body>
+<h1>My TODO List</h1>
+<ul>
+    <li>HTML5 course @ Lexicon</li>
+    <li>Homework HTML CSS</li>
+    <li>Teddy  birthday present</li>
+</ul>
+</body>
+</html>
+--------------------------'Hello HTML'-----------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello HTML</title>
+</head>
+<body>
+<h1>Hello HTML!</h1>
+<p>I am <strong>Teddy</strong>. I am from <a href="http://stockholm.com">Stockholm</a>.</p>
+<p>I study <em>C# Web</em> at <a href="https://lexicon.se">Lexicon</a>.</p>
+</body>
+</html>
+---------------------------'Website.html'-----------------------------------------
+----------Has three html coding---hello,home,todo htmls---------------------------
+------------------------hello.html--------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello HTML</title>
+</head>
+<body>
+<h1>Hello HTML!</h1>
+<p>I am <strong>Kiril</strong>. I am from <a href="http://varna.bg">Varna</a>.</p>
+<p>I study <em>C# Web</em> at <a href="https://softuni.bg">SoftUni</a>.</p>
+<p>back to <a href="home.html">home</a></p>
+</body>
+</html>
+..................home.html..................
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>Home</h1>
+<ul>
+    <li><a href="hello.html">hello.html</a></li>
+    <li><a href="todo.html">todo.html</a></li>
+</ul>
+</body>
+</html>
+....................todo.html.................
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO List</title>
+</head>
+<body>
+<h1>My TODO List</h1>
+<ul>
+    <li>HTML5 course @ SoftUni</li>
+    <li>Homework HTML &amp; CSS</li>
+    <li>Teddy &ndash; birthday present</li>
+</ul>
+<p>back to <a href="home.html">home</a></p>
+</body>
+</html>
+----------------------------fruits.html-------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruits</title>
+</head>
+<body>
+<h1>Fruits</h1>
+<p>
+    <img src="images/banana.png" />
+    <img src="images/orange.png" />
+    <img src="images/kiwi.png" />
+    <img src="images/kiwi.png" />
+    <img src="images/apple.png" />
+</p>
+<p>
+    <img src="images/apple.png" />
+    <img src="images/apple.png" />
+    <img src="images/banana.png" />
+    <img src="images/kiwi.png" />
+    <img src="images/orange.png" />
+</p>
+<p>
+    <img src="images/orange.png" />
+    <img src="images/banana.png" />
+    <img src="images/orange.png" />
+    <img src="images/orange.png" />
+    <img src="images/apple.png" />
+</p>
+</body>
+</html>
+------------------------'Receipt.html'--------------------------
+-----------------2 files are there-----------------------------
+--------------------1. receipt.html----------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lexicon Store</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>Name / Description</th>
+        <th>Qty.</th>
+        <th>Price</th>
+        <th>Cost</th>
+    </tr>
+    <tr>
+        <td>Paperclips</td>
+        <td>1000</td>
+        <td>0.01</td>
+        <td>10.00</td>
+    </tr>
+    <tr>
+        <td>Staples (box)</td>
+        <td>100</td>
+        <td>1.00</td>
+        <td>100.00</td>
+    </tr>
+    <tr>
+        <th colspan="3">Subtotal</th>
+        <td>$110.00</td>
+    </tr>
+    <tr>
+        <th colspan="2">Tax</th>
+        <td>8%</td>
+        <td>$8.80</td>
+    </tr>
+    <tr>
+        <th colspan="3">Grand Total</th>
+        <td>$118.80</td>
+    </tr>
+    <tr>
+        <td colspan="4"><em>&copy; 2020 - Lexicon Store</em></td>
+    </tr>
+</table>
+</body>
+</html>
+-----------------------2. Contact Us html----------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+<h1>Contact Us</h1>
+<form>
+    <label>First name:</label>
+    <input type="text" />
+    <label>Second name:</label>
+    <input type="text" />
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
+--------------------------Color.html---------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colors</title>
+</head>
+<body>
+<p>Once the <span style="color: blue">blue plum</span> met the <span style="color: red">red tomato</span> playing with the <span style="color: green">green cucumber</span>.</p>
+</body>
+</html>
+-------------------------Border.html-------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Borders</title>
+</head>
+<body>
+<p style="background-color: lightgrey; text-align: center; font-size: 24px; border: 3px solid red; border-radius: 12px;"><span style="color: red">Red</span> Border</p>
+<p style="background-color: lightgrey; text-align: center; font-size: 24px; border: 3px solid green; border-radius: 12px;"><span style="color: green">Green</span> Border</p>
+<p style="background-color: lightgrey; text-align: center; font-size: 24px; border: 3px solid blue; border-radius: 12px;"><span style="color: blue">Blue</span> Border</p>
+</body>
+</html>
+------------------------------'Rectangle.html'-----------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rectangles</title>
+</head>
+<body>
+<div style="padding: 15px; border: 3px dotted blue; border-radius: 15px">
+    <div style="padding: 15px; border: 1px dashed red; border-radius: 9px">
+        <div style="padding: 15px; border: 2px solid green; border-radius: 3px; text-align: center; font-size: 24px;">
+            I am heavily packed &lt;DIV&gt;
+        </div>
+    </div>
+</div>
+</body>
+</html>
+----------------------------Lang.html(has css file too)------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Languages</title>
+    <link rel="stylesheet" href="langs.css" />
+</head>
+<body>
+<p>Programming languages like <span class="lang">PHP</span>, <span class="lang">JavaScript</span>, <span class="lang">C#</span> and <span class="lang">Java</span> are general-purpose.</p>
+</body>
+</html>
+---------------CSS file : langs.css---------------
+body{
+    background: #EEE;
+    font-size: 24pt;
+}
+
+.lang{
+    border: 1px #AAA;
+    border-radius: 5px;
+    background: #CCC;
+    padding: 5px 15px;
+}
+----------------------------Contact Us Form----------------------------------
+---------------------------has css file too------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact-us-form.css" />
+</head>
+<body>
+<h1>Contact Us</h1>
+<form>
+    <span>First name:</span>
+    <input type="text" name="firstname">
+    <br/>
+    <span>Last name:</span>
+    <input type="text" name="lastname">
+    <br/>
+    <span>Email:</span>
+    <input type="email" name="email">
+    <br/>
+    <span>Town:</span>
+    <select name="town">
+        <option value="1">Stockholm</option>
+        <option value="2">Göteborg</option>
+        <option value="3">Malmö</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+-----------------------CSS file - contact-us-form.css---------------
+form{
+    background: #eee;
+    display: inline-block;
+}
+
+form span{
+    display: inline-block;
+    width: 80px;
+    background: #eee;
+    margin: 10px 3px 3px 8px;
+}
+
+form input, form select{
+    width: 150px;
+    height: 20px;
+    margin: 0 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"]{
+    display: block;
+    margin: 10px 0 12px 100px;
+    width: 80px;
+    height: 30px;
+}
+-----------------------------------X----END-----X------------------------------

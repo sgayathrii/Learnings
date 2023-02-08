@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Show More... Using DOM</title>
+        
+    </head>
+    <body>
+        <p id="p1">Welcome to the "Show More Text Example". </p>
+        <a href="" id="more" onclick="showText()">Read more ...</a>
+        <span id="textid" style="display:none">Welcome to Javascript and DOM.</span>
+              
+    </body>
+    <script>
+        function showText(){
+            document.getElementById("textid").style.display = "inline";
+            document.getElementsById("more").style.display = "none";
+            
+    }
+            
+    </script>
+</html>    

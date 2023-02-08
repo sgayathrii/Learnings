@@ -1,0 +1,41 @@
+<!--Not Yet completed-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stop Watch Using DOM</title>
+    </head>
+    <body>
+        <div id="time" style="border:3px solid blue; text-align:center; font-size:2em; 
+        margin-bottom:10px; margin-right:80% ">00:00</div>
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" disabled="true">Stop</button>
+        <script>window.onload = function() { stopwatch(); }
+       
+         function stopwatch(){
+                 let seconds = 0;
+                 let tens = 0;
+                 let count = 0;
+                 let buttonStart = document.getElementById("startBtn");
+                 let buttonStop = document.getElementById("stopBtn");
+                 buttonStart.addEventListener("click", function(eventStart){
+                     //clearInterval(Interval);
+                     const date = new Date();
+                     seconds = date.getSeconds();
+                     console.log(seconds);
+                     Interval = setInterval(function(){
+                         count++;
+
+                         document.getElementById("time").innerText = count;
+                     }, 3000);
+                  });
+                  buttonStop.addEventListener("click", function(eventStop){
+                    clearInterval(Interval);
+                  });
+
+         }
+        </script>
+    </body>
+</html>
