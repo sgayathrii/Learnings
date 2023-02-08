@@ -1,0 +1,52 @@
+form {
+    width:50%;
+    margin: 0 auto;
+    }
+
+/* Makes responsive fields. Sets size and field alignment.*/
+
+
+input[type="email"], input[type="password"], input[type="text"], select{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:55%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #FE9E00; 
+    margin-left: 180px;  
+   
+}
+
+input[type=number], input[type="date"], textarea{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:51%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #FE9E00;
+    margin-left: 180px;
+}
+
+textarea {
+    resize: none;
+  }
+
+input[type=submit] {
+    margin-bottom: 20px;
+    width:50%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #FE9E00;
+    background-color: #FEAE00;
+    color: aliceblue;
+    font-size:15px;
+    cursor:pointer;
+    margin-left: 20px;
+    }
+
+input[type=submit]:hover {
+    background-color: #FE7300;
+    }
+

@@ -1,0 +1,24 @@
+body{
+    background-color: #EEE;
+    font-size: 24pt;
+    line-height:160%;
+}
+.p
+{
+  font-family:'Times New Roman', Times, serif;
+
+}
+.l1
+{
+  border:1px #AAA;
+  border-radius:5px;
+  background:#CCC;
+  padding: 5px 15px;
+
+}
+/*.lang{
+  border: 1px #AAA;
+  border-radius: 5px;
+  background: #CCC;
+  padding: 5px 15px;
+} shared in chat by teachers that something was missing in the document shared*/
