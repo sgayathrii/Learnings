@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF - 8">
+        <title>Fruits</title>
+    </head>
+    <body>
+        <h1>Fruits</h1>
+        <p>
+            <table>
+               <tr>          
+             <td><img src = "apple.jfif" width="100" height = "100" alt = "Fruit image not found">
+              </td>
+              <td><img src = "banana.jfif" width="100" height = "100" alt = "Fruit image not found"></td>
+            </tr>
+           </table>
+        </p>
+    </body>
+</html>
