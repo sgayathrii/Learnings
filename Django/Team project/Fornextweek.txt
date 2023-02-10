@@ -1,0 +1,16 @@
+# Login and Logout page: And connect them with database
+# After that check for cart order deatils matching with user
+# view the images in store.html
+# Should we delete Ecom button ? or we need some other button there?
+# 3.5 video done? - not needed
+# Catergories
+# Adding a banner that the user is a superuser
+
+
+#Names for Website:
+Wire Guys
+Compuzone
+Electro-Power
+Mr.Electro
+OneStop OneShop
+

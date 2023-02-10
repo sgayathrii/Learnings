@@ -1,0 +1,24 @@
+{%extends "basic_app/base.html" %}
+{% block body_block %}
+
+<!--Login -->
+<div class="content-section">
+    
+    <form method="POST">
+        {% csrf_token %}
+        
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Log In</legend>
+                {{login_form.as_p}}
+            </div>
+        </fieldset>
+        <div class="form-group">
+            <button class= "btn btn-outline-info" type="submit">Login</button>
+        </div>
+    </form>
+    <!--
+        <p class="text-center">Don't have a account? <a href="basic_app/register">Create an account</a>.</p> -->
+</div>
+
+{% endblock %}
+

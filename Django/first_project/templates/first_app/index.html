@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <title>First Application</title> -->
+        <title>Django</title>
+        <link rel = "stylesheet" href = "{% static "css/mystyle.css" %}">
+    </head>
+    <body>
+    <!-- <h1>Hello this is index.html!</h1>
+        {{ insert_me }}
+   
+    <h1>Helloo.. This is the picture of Django</h1>
+    <img src="{% static "images/django.jpg" %}" alt = "oh no! didn't show">
+     --> 
+    <h1>Hi and Welcome!</h1>
+    <h2>Here is your access records:</h2>
+    <!--
+    <div>
+        {% if access_records %}
+        <table>
+            <thead>
+                <th>Site name</th>
+                <th>Date Accessed</th>
+            </thead>
+        
+        {% for acc in access_records %}
+        <tr>
+            <td>{{acc.name}}</td>
+            <td>{{acc.date}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p>No access records found!</p>
+    {% endif %}
+    </div>   
+   -->
+        <table>
+            <tr>
+                <th>Topic</th>
+                <th>Name</th>
+                <th>URL</th>
+                <th>Date</th>                
+            </tr>
+        {% for column in data %}
+            <tr>
+                <td>{{column.name.topic}}</td>
+                <td>{{column.name}}</td>
+                <td>{{column.name.url}}</td>
+                <td>{{column.date}}</td>
+            </tr>
+        {% endfor %}
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,22 @@
+{% extends 'basic_app/base.html' %}
+
+{% block body_block %}
+
+{% csrf_token %}
+{% if user.is_authenticated %}
+<h2>{% block title%} Profile Details {% endblock %}
+    <br><br>
+
+    <p style="color:#808000;">Hi {{ user.username }}!</p>
+    <p style="color:#008080;">Your email is {{ user.email }}</p>
+    <p style="color:#008080;">Your portfolio site: {{UserProfileInfo.portfolio_site }}</p>
+    <p style="color:#008080;">Profile picture:</p>
+    <img id="profile_image" src="/media/profile_pics/female.png" width=30% height=30%>
+   
+{% else %}
+
+<h2> Login to view your details </h2>
+
+{% endif %}
+
+{% endblock %}
